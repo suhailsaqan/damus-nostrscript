@@ -1,0 +1,5 @@
+[[redirects]]
+from = "/*"
+to = "https://nostrscript.suhailsaqan.com/"
+status = 200
+force = true
