@@ -19,11 +19,14 @@
         
         a {
             display: inline-block;
+            text-decoration: none;
+        }
+
+        .toggle-button {
             margin: 10px;
             padding: 10px 20px;
             background-color: #8400ff;
             color: #ffffff;
-            text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
@@ -52,18 +55,24 @@
             font-size: 14px;
             color: #aaa;
         }
+
+        .follow {
+        }
     </style>
 </head>
 <body>
+    <h1>Toggle Zaps in Damus</h1>
     <h1>⚡️</h1>
     
-    <a href="damus:nostr:nscript1qpshxmgpqqqqqqgtqfsqxlml0uqh7cqqqqppsqg9dehhxarjpehx7um5wf0hxet5ta3x7mmvqqqqxqspqyzsxqgqqyrs5qgxd4jk6mmj0ypqqzqpqyxqzqs2z5q3xqzp5qyyr8qg9qpqqsgpweqsqyqqrg9skggzqpqcczqtqywqqsvcpq93xqsqqqqqcqqqqphqqmcq0gqxzqrsqpesehczp5">⚡️ On</a>
+    <a class="toggle-button" href="damus:nostr:nscript1qpshxmgpqqqqqqgtqfsqxlml0uqh7cqqqqppsqg9dehhxarjpehx7um5wf0hxet5ta3x7mmvqqqqxqspqyzsxqgqqyrs5qgxd4jk6mmj0ypqqzqpqyxqzqs2z5q3xqzp5qyyr8qg9qpqqsgpweqsqyqqrg9skggzqpqcczqtqywqqsvcpq93xqsqqqqqcqqqqphqqmcq0gqxzqrsqpesehczp5">⚡️ On</a>
     
-    <a href="damus:nostr:nscript1qpshxmgpqqqqqqgtqfsqxlml0uqh7cqqqqppsqg9dehhxarjpehx7um5wf0hxet5ta3x7mmvqqqqxqspqyzsxqgqqyrs5qgxd4jk6mmj0ypqqzqpqyxqzqs2z5q3xqzp5qyyr8qg9qpqqsgpweqszyqqrg9skggzqpqcczqtqywqqsvcpq93xqsqqqqqcqqqqphqqmcq0gqxzqrsqpest0rum4">⚡️ Off</a>
+    <a class="toggle-button" href="damus:nostr:nscript1qpshxmgpqqqqqqgtqfsqxlml0uqh7cqqqqppsqg9dehhxarjpehx7um5wf0hxet5ta3x7mmvqqqqxqspqyzsxqgqqyrs5qgxd4jk6mmj0ypqqzqpqyxqzqs2z5q3xqzp5qyyr8qg9qpqqsgpweqszyqqrg9skggzqpqcczqtqywqqsvcpq93xqsqqqqqcqqqqphqqmcq0gqxzqrsqpest0rum4">⚡️ Off</a>
     
-    <p>Restart the app after running.</p>
-    
-    <footer>Host the page yourself too.</footer>
+    <p>⚠️ Restart the app after running ⚠️</p>
+
+    <footer><a class="follow" href="https://damus.io/npub1k92qsr95jcumkpu6dffurkvwwycwa2euvx4fthv78ru7gqqz0nrs2ngfwd">Follow me</a></footer>
+
+    <footer><a class="follow" href="https://github.com/suhailsaqan/damus-nostrscript">Host this page yourself too</a></footer>
 
     <p class="disclaimer">Not associated with Damus.</p>
 </body>
